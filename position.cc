@@ -72,6 +72,7 @@ void Position::New(const FunctionCallbackInfo<Value>& args) {
 }
 
 void Position::Calc(const FunctionCallbackInfo<Value>& args) {
+  // TODO: modifiy this function to test the addon 
   Isolate* isolate = args.GetIsolate();
 
   Position* obj = ObjectWrap::Unwrap<Position>(args.Holder());

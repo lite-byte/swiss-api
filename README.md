@@ -9,7 +9,9 @@
 
 # Swiss Ephemeris Bindings
 
-This repository contains C++ addons in NodeJS for the ![Swiss Ephemeris](https://www.astro.com/swisseph/swephinfo_e.htm).
+This repository contains C++ bindings for the ![Swiss Ephemeris](https://www.astro.com/swisseph/swephinfo_e.htm). The SWISS EPHEMERIS is the high precision ephemeris based upon the DExxx ephemerides from NASA's JPL.
+
+## NodeJS Addons
 
 <!-- <p align="center">
 <img src="web/celestial-sphere.png" width="345" class="center"/>

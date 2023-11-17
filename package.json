@@ -1,7 +1,7 @@
 {
-  "name": "gsync-serve",
+  "name": "ephm-server",
   "version": "1.0.0",
-  "description": "backend for GSYNC web app",
+  "description": "ephemeris web server",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ss-gsync/web-server.git"
+    "url": "git@github.com:global-sync/ephemeris.git"
   },
-  "author": "spencer",
+  "author": "ss",
   "license": "AGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/ss-gsync/web-server/issues"
+    "url": "https://github.com/global-sync/ephemeris/issues"
   },
-  "homepage": "https://github.com/ss-gsync/web-server#readme"
+  "homepage": "https://github.com/global-sync/ephemeris#readme"
 }

@@ -3,18 +3,26 @@
   "version": "1.0.0",
   "description": "ephemeris web server",
   "main": "server.js",
+  "gypfile": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "node test.js",
+    "start": "node server.js",
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:global-sync/ephemeris.git"
+    "url": "git+ssh://git@github.com/global-sync/ephemeris.git"
   },
   "author": "ss",
   "license": "AGPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/global-sync/ephemeris/issues"
   },
-  "homepage": "https://github.com/global-sync/ephemeris#readme"
+  "homepage": "https://github.com/global-sync/ephemeris#readme",
+  "dependencies": {
+    "node-addon-api": "^7.0.0",
+    "node-gyp": "^10.0.1",
+    "save-dev": "^0.0.1-security"
+  }
 }

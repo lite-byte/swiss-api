@@ -1,5 +1,6 @@
 // swe.cc
 #include <string.h>
+#include <boost/json/src.hpp>
 #include "ephm/swephexp.h"
 #include "position.h"
 
@@ -84,7 +85,7 @@ void Position::Calc(const FunctionCallbackInfo<Value>& args) {
   double tjd, te, x2[6];
   int32 iflag, iflgret;
   int p;
-  swe_set_ephe_path("./ephe");
+  swe_set_ephe_path("/home/ss/gsync/web-server/src/ephm/ephe");
   iflag = SEFLG_SPEED;
   // parse date string to get day, month, year
   sscanf (obj->date_.c_str(), "%d%*c%d%*c%d", &jday,&jmon,&jyear);

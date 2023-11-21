@@ -1,14 +1,12 @@
 {
-  "name": "ephm-server",
+  "name": "ephemeris-server",
   "version": "1.0.0",
   "description": "ephemeris web server",
   "main": "server.js",
   "gypfile": true,
   "scripts": {
     "test": "node test.js",
-    "start": "node server.js",
-    "build": "node-gyp rebuild",
-    "clean": "node-gyp clean"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -19,10 +17,5 @@
   "bugs": {
     "url": "https://github.com/global-sync/ephemeris/issues"
   },
-  "homepage": "https://github.com/global-sync/ephemeris#readme",
-  "dependencies": {
-    "node-addon-api": "^7.0.0",
-    "node-gyp": "^10.0.1",
-    "save-dev": "^0.0.1-security"
-  }
+  "homepage": "https://github.com/global-sync/ephemeris#readme"
 }
